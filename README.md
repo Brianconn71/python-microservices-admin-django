@@ -28,4 +28,10 @@ django-admin startproject admin
 Create diockerfile inside the admin folder
 And also a docker-compose.yml file
 
-Dockerfile is created first
+Dockerfile is created first with requirements file simultaneously
+
+##### create docker compose file
+```
+    docker compose up
+```
+builds the docker compose file which builds our backend
